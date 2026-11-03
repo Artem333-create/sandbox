@@ -1,0 +1,68 @@
+.header {
+  background-color: rgba(18, 18, 18, 1);
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0px 100px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  padding: 22px 0;
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #121212;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  gap: 209px;
+  padding: 0px 50px;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.my-btn {
+  background-color: rgba(255, 255, 255, 1);
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.form-image {
+  width: 560px;
+  height: 540px;
+}

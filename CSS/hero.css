@@ -1,0 +1,82 @@
+/* ==========SIGN UP ============*/
+.section {
+  padding: 150px 0px;
+}
+/* 75 : 2 розділими дві секції padding */
+
+.section-title {
+  font-weight: 500;
+  font-size: 48px;
+
+  line-height: 1.125;
+  letter-spacing: -0.04em;
+}
+
+.privacy-policy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 48px;
+  line-height: 54px;
+  letter-spacing: -4%;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -2%;
+}
+
+.form-container {
+  max-width: 480px;
+}
+.form-image {
+  width: 560px;
+  height: auto;
+}
+
+.form-image-container {
+  width: 480px;
+}
+
+.main {
+  width: 1240px;
+  height: 578px;
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.disclaimer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  vertical-align: middle;
+}
+
+.form-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-transform: uppercase;
+}
